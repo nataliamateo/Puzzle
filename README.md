@@ -1,2 +1,2 @@
 # Puzzle
-Minijuego de realizar un puzzle hecho en Javascritp
+Minijuego de realizar un puzzle hecho en Javascript
