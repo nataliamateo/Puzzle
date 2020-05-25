@@ -1,0 +1,9 @@
+.left-puzzle {
+  border: 2px solid black;
+  height: 30rem;
+  width: 30rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 10px;
+  row-gap: 15px;
+}
