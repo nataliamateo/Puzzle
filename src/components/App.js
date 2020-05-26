@@ -1,14 +1,18 @@
 import React from 'react';
 import '../stylesheets/App.scss';
 import LeftPuzzle from './LeftPuzzle';
-import Data from '../services/data.json';
+import RightPuzzle from './RightPuzzle';
+import data from '../services/data.json';
 
-function App() {
+const App = () => {
+  // const [rightPuzzle, setRightPuzzle] = useState([]);
+  // const [leftPuzzle, setLeftPuzzle] = useState([]);
   return (
     <div className='App'>
-      <LeftPuzzle />
+      <LeftPuzzle data={data} />
+      <RightPuzzle data={data} />
     </div>
   );
-}
+};
 
 export default App;

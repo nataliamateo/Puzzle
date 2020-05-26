@@ -1,4 +1,4 @@
-.left-puzzle {
+.right-puzzle {
   border: 2px solid black;
   height: 30rem;
   width: 30rem;
@@ -8,7 +8,6 @@
   row-gap: 15px;
   margin: 0;
   padding: 0;
-  margin-right: 50px;
   &__piece {
     list-style: none;
   }
