@@ -1,7 +1,23 @@
+.title {
+  text-align: center;
+  font-size: 6rem;
+  margin: 0;
+  font-family: 'Lobster', cursive;
+  color: rgb(204, 109, 190);
+}
+.fa-puzzle-piece {
+  color: rgb(112, 112, 212);
+  height: 60px;
+  position: absolute;
+  top: 5rem;
+  right: 15rem;
+  transform: rotate(20deg);
+}
+
 .App {
   display: flex;
   justify-content: center;
-  height: 50rem;
+  height: 40rem;
   width: 67rem;
   align-items: center;
 }
