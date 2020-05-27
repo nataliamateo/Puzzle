@@ -2,16 +2,17 @@ import React, { useState } from 'react';
 import '../stylesheets/App.scss';
 import LeftPuzzle from './LeftPuzzle';
 import RightPuzzle from './RightPuzzle';
-import data from '../services/data.json';
+import puzzle from '../services/puzzle.json';
+import empty from '../services/empty.json';
 
 const App = () => {
-  const [leftPuzzle, setLeftPuzzle] = useState([]);
-  const [rightPuzzle, setRightPuzzle] = useState([]);
+  const [leftPuzzle, setLeftPuzzle] = useState(puzzle);
+  const [rightPuzzle, setRightPuzzle] = useState(empty);
 
   return (
     <div className='App'>
-      <LeftPuzzle leftPuzzle={data} />
-      <RightPuzzle />
+      <LeftPuzzle id='puzzle-1' leftPuzzle={leftPuzzle} setLeftPuzzle={setLeftPuzzle} setRightPuzzle={setRightPuzzle} />
+      <RightPuzzle id='puzzle-2' pieces={rightPuzzle} setLeftPuzzle={setLeftPuzzle} setRightPuzzle={setRightPuzzle} />
     </div>
   );
 };

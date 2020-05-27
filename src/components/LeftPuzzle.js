@@ -1,9 +1,9 @@
 import React from 'react';
 import '../stylesheets/leftPuzzle.scss';
-import Pieces from './Pieces';
+import DraggablePiece from './DraggablePiece';
 
 const LeftPuzzle = (props) => {
-  const items = props.leftPuzzle.map((data) => <Pieces key={data.id} data={data} />);
+  const items = props.leftPuzzle.map((data) => <DraggablePiece key={data.id} data={data} />);
   return <ul className='left-puzzle'>{items}</ul>;
 };
 
