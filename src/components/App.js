@@ -37,9 +37,11 @@ const App = () => {
 
   return (
     <>
-      <h1 className='title'>
-        Mini-puzzle <i className='fas fa-puzzle-piece'></i>
-      </h1>
+      <div>
+        <h1 className='title'>
+          Mini-puzzle <i className='fas fa-puzzle-piece'></i>
+        </h1>
+      </div>
       <div className='App'>
         <Board id='puzzle-1' pieces={leftPuzzle} puzzleState={puzzleState} />
         <Board id='puzzle-2' pretty={true} pieces={rightPuzzle} puzzleState={puzzleState} />
