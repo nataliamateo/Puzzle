@@ -1,14 +1,16 @@
 .right-puzzle {
-  border: 2px solid black;
+  border: 1px solid black;
   height: 30rem;
   width: 30rem;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  column-gap: 10px;
-  row-gap: 15px;
+  grid-column-gap: 10px;
+  grid-row-gap: 6px;
   margin: 0;
   padding: 0;
+  margin-right: 50px;
   &__piece {
     list-style: none;
+    border: 1px solid black;
   }
 }
