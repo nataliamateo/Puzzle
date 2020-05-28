@@ -1,11 +1,11 @@
 [
-  { "id": "empty-1", "url": "../assets/images/0.png" },
-  { "id": "empty-2", "url": "../assets/images/0.png" },
-  { "id": "empty-3", "url": "../assets/images/0.png" },
-  { "id": "empty-4", "url": "../assets/images/0.png" },
-  { "id": "empty-5", "url": "../assets/images/0.png" },
-  { "id": "empty-6", "url": "../assets/images/0.png" },
-  { "id": "empty-7", "url": "../assets/images/0.png" },
-  { "id": "empty-8", "url": "../assets/images/0.png" },
-  { "id": "empty-9", "url": "../assets/images/0.png" }
+  { "id": "empty-1", "url": "../images/0.png" },
+  { "id": "empty-2", "url": "../images/0.png" },
+  { "id": "empty-3", "url": "../images/0.png" },
+  { "id": "empty-4", "url": "../images/0.png" },
+  { "id": "empty-5", "url": "../images/0.png" },
+  { "id": "empty-6", "url": "../images/0.png" },
+  { "id": "empty-7", "url": "../images/0.png" },
+  { "id": "empty-8", "url": "../images/0.png" },
+  { "id": "empty-9", "url": "../images/0.png" }
 ]
