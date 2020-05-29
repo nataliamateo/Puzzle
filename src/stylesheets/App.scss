@@ -3,8 +3,12 @@
   font-size: 3rem;
   font-family: "Lobster", cursive;
   color: rgb(204, 109, 190);
-  @media all and (min-width: 1080px) {
+  @media all and (min-width: 768px) {
     font-size: 6rem;
+  }
+  @media all and (min-width: 1024px) {
+    font-size: 6rem;
+    margin: 0;
   }
 }
 .fa-puzzle-piece {
@@ -16,13 +20,14 @@
 .App {
   display: flex;
   flex-direction: column;
-  @media all and (min-width: 1080px) {
+  @media all and (min-width: 768px) {
+    align-items: center;
+  }
+  @media all and (min-width: 1024px) {
     background-size: cover;
     flex-direction: row;
     height: 40rem;
-    width: 67rem;
+    width: 65rem;
     justify-content: center;
-    align-items: center;
-    margin-left: 0 px;
   }
 }
