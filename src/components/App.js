@@ -40,7 +40,7 @@ const App = () => {
           Mini-puzzle <i className="fas fa-puzzle-piece"></i>
         </h1>
       </div>
-      <div className="win ">
+      <div className="win hidden">
         Enhorabuena has ganado!!<i className="fas fa-trophy"></i>
       </div>
       <div className="App">

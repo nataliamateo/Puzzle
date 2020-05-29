@@ -42,6 +42,10 @@
   font-family: "Roboto", sans-serif;
   margin-bottom: 10px;
   text-align: center;
+  @media all and (min-width: 1024px) {
+    margin-top: 30px;
+    font-size: 22px;
+  }
 }
 .fa-trophy {
   color: yellow;
